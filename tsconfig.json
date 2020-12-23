@@ -1,0 +1,22 @@
+{
+    // "extends": "./tsconfig.template.json",
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "commonjs",
+        "lib": [
+            "ESNext",
+            "esnext.asynciterable"
+        ],
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "outDir": "dist/src"
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "**/*deprected*",
+        "src/tests"
+    ]
+}
